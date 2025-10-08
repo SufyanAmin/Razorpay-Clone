@@ -1,10 +1,13 @@
 module.exports = {
-  content: ["*"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
         mullish: ["Mulish", "sans-serif"],
+        plugins: [],
       },
+
+
       colors: {
         deepBlue: "#02042a",
         lightBlue: "#2b84ea",
